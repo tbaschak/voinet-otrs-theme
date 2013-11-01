@@ -17,9 +17,9 @@ OTRS_ROOT="/opt/otrs"
 /bin/chmod -R 2775 $SKIN_PATH/skins/Agent/voinet
 /bin/chmod -R 2775 $SKIN_PATH/skins/Customer/voinet
 
-/bin/ln -s $SKIN_PATH/VoinetSkin.xml $OTRS_ROOT/Kernel/Config/Files/ || true
-/bin/ln -s $SKIN_PATH/skins/Agent/voinet $OTRS_ROOT/var/httpd/htdocs/skins/Agent || true
-/bin/ln -s $SKIN_PATH/skins/Customer/voinet $OTRS_ROOT/var/httpd/htdocs/skins/Customer || true
+/bin/ln -sf $SKIN_PATH/VoinetSkin.xml $OTRS_ROOT/Kernel/Config/Files/ || true
+/bin/ln -sf $SKIN_PATH/skins/Agent/voinet $OTRS_ROOT/var/httpd/htdocs/skins/Agent || true
+/bin/ln -sf $SKIN_PATH/skins/Customer/voinet $OTRS_ROOT/var/httpd/htdocs/skins/Customer || true
 
 /bin/cp -r $SKIN_PATH/theme/VOINET $OTRS_ROOT/Kernel/Output/HTML
 
