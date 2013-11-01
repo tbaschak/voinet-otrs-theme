@@ -84,8 +84,8 @@ $Include{"Copyright"}
 <body class="NoJavaScript $QData{"BodyClass"}">
     <div id="toolribbon">
                 <div id="lefttools">
-                  <a href="http://www.eea.europa.eu/" id="eealink">EEA</a>
-                  <a href="http://ew.eea.europa.eu/" id="ewlink">EnviroWindows</a>
+                  <a href="http://voinetworksolutions.com/" id="ewlink">Voi Network Solutions</a>
+                  <a href="http://as14866.net/" id="ewlink">as14866 Technical Info</a>
                 </div>
         <div class="clearfix" /> </div>
 
