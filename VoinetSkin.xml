@@ -6,7 +6,7 @@
         <SubGroup>Frontend::Agent</SubGroup>
         <Setting>
             <Hash>
-                <Item Key="URL">skins/Agent/voinet/img/top_graphic.gif</Item>
+                <Item Key="URL">skins/Agent/voinet/img/top_graphic.png</Item>
                 <Item Key="StyleTop">13px</Item>
                 <Item Key="StyleRight">75px</Item>
                 <Item Key="StyleHeight">67px</Item>
@@ -33,7 +33,7 @@
         <SubGroup>Frontend::Customer</SubGroup>
         <Setting>
             <Hash>
-                <Item Key="URL">skins/Customer/voinet/img/top_graphic.gif</Item>
+                <Item Key="URL">skins/Customer/voinet/img/top_graphic.png</Item>
                 <Item Key="StyleTop">2px</Item>
                 <Item Key="StyleRight">25px</Item>
                 <Item Key="StyleHeight">50px</Item>
