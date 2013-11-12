@@ -14,6 +14,8 @@ Edit install.sh and make sure OTRS_USER, OTRS_GROUP and OTRS_ROOT variables are 
 
 $ sudo ./install.sh
 
+Configuration
+=============
 Log into OTRS system with the admin user, go to SysConfig **Core::Web** and set: 
     **Loader::Agent::DefaultSelectedSkin** to voinet
 then go to **Frontend::Customer** and set:
@@ -27,3 +29,7 @@ To activate the theme in otrs, we need to go to SysConfig Core::Web and add our 
 To make our theme the default theme, we need to go to SysConfig Core and change the *DefaultTheme* setting to **VOINET** . This will apply our theme to all users that have not previously set the Theme preference in their user preferences.
 
 If we want the theme default theme setting to override user's preferences, then we need to set our default theme on a host level *DefaultTheme::HostBased*.
+
+Credits
+=======
+Thanks for the origins of theme goes to the European Environmental Agency: https://github.com/eea/eionet.otrs.theme
