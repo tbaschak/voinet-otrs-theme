@@ -8,7 +8,7 @@ In order to install the VOINET OTRS Skin, go to the Custom directory in your OTR
 deployment directory (e.g.: /opt/otrs/Custom)::
 
 $ cd /opt/otrs/Custom
-$ git clone https://gitlab.henchman21.net/voinet/voinet-otrs-theme.git
+$ git clone https://github.com/voinetworks/voinet-otrs-theme.git
 
 Edit install.sh and make sure OTRS_USER, OTRS_GROUP and OTRS_ROOT variables are set correctly for your environment, then::
 
